@@ -1,0 +1,34 @@
+<aside>
+<div id="prayer">
+		<a href="/contactus.php">Contact Us</a>
+	</div>
+	<div id="prayer">
+		<a href="prayer.php">Prayer Requests</a>
+	</div>
+			
+	<div id="moreinfo">
+		<a href="form.php">More Information</a>
+	</div>
+
+	<div id="moreinfo">
+		<a href="release_forms.php">Forms</a>
+	</div>
+	<h2>Weekly Schedule</h2>
+		<ul>
+			<li>Sunday:</li>
+			<ol>
+				<li>Sunday School: 9 AM</li>
+				<li>Worship Service: 10 AM</li>
+			</ol>
+				<li>Tuesday:</li>
+			<ol>
+				<li>Prayer: 5:30 PM</li>
+				<li>Choir Practice: 6:30 PM</li>
+				<li>Bell Choir Practice: 7:30 PM</li>
+			</ol>	
+				<li>Thursday:</li>
+			<ol>
+				<li>Meals on Wheels: 8 AM</li>
+			</ol>
+		</ul>
+</aside>

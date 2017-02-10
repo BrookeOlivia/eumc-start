@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Evangelical_United_Methodist_Church_Gallery</title>
+</head>
+<body>
+<!-- Start EasyHtml5Video.com BODY section -->
+<div style="position:relative;width:1440px;height:1080px;"><video controls="controls"  poster="f4f.files/EUMC_Gallery.jpg" width="1440" height="1080"  onclick="if(/Android/.test(navigator.userAgent))this.play();">
+<source src="f4f.files/EUMC_Gallery.mp4" type="video/mp4" />
+<source src="f4f.files/EUMC_Gallery.webm" type="video/webm" />
+<source src="f4f.files/EUMC_Gallery.ogv" type="video/ogg" />
+<object type="application/x-shockwave-flash" data="f4f.files/flashfox.swf" width="1440" height="1080" style="position:relative;">
+<param name="movie" value="f4f.files/flashfox.swf" />
+<param name="allowFullScreen" value="true" />
+<param name="flashVars" value="autoplay=true&amp;controls=true&amp;loop=true&amp;src=EUMC_Gallery.mp4" />
+ <embed src="f4f.files/flashfox.swf" width="1440" height="1080" style="position:relative;"  flashVars="autoplay=true&amp;controls=true&amp;loop=true&amp;poster=f4f.files/EUMC_Gallery.jpg&amp;src=EUMC_Gallery.mp4"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="Evangelical_United_Methodist_Church_Gallery" src="f4f.files/EUMC_Gallery.jpg" style="position:absolute;left:0;" width="1440" height="1080" title="Video playback is not supported by your browser" />
+</object>
+</video></div>
+<script src="f4f.files/html5ext.js" type="text/javascript"></script>
+<a style="display:none" href="http://easyhtml5video.com">opera html5 video by EasyHtml5Video.com v1.5.1</a>
+
+<!-- End EasyHtml5Video.com BODY section -->
+</body>
+</html>
