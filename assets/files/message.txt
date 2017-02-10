@@ -1,0 +1,80 @@
+The web design team would first just like to say thank you all for your patience and help in getting our website up and running.  The hard work of not only our development staff but also the members of this church this past year and a half has just been great. There has been so much involved in getting it to this point and we pray that God would use it for His glory in our world.  Along with everyone in the church who provided man power for writing content a special thanks needs to go to Mrs. Ella May for generously giving the web staff her pictures for the website.  As much as the web team would like to take full credit for getting everything working a huge thanks is due to Robert Oliver for his help to this team, BUT the main praise, glory, and honor goes to Jesus, becuase without him we wouldn't have it finished.
+
+<h3>NOW ON TO REAL BUSINESS!</h3>
+
+There are two very important dates that you should be made aware of, <strong><em>December 18</em></strong> and <strong><em>June 17</em></strong>.  We ask that you have all of your changes for your sections of the site submitted to eumc.webmaster@gmail.com by those dates.  If your changes are not in to us by those days then your changes will have to wait till the next update is scheduled to take place.  With this said if there are any major problems you should contact the webmaster ASAP by email or phone.  If you email us and we do not email you back in three (3) days then please give us a call to make sure that we have recieved your email and have seen it.    
+\n
+Major errors include:
+<ul>
+	<li>a link does not work</li>
+	<li>a link is wrong (goes to a wrong page)</li>
+	<li> the information on your page is incorrect to a major degree</li>
+		<ul>
+			<li>Contact Information is wrong</li>
+			<li>Wrong ages/times</li>
+			<li>etc.</li>
+		</ul>
+	<li>your page just doesn't work</,8,9li>
+	<li>You can't log in to either your database account or your email.</li>
+	<li>You get a 404 error on your screen</li>
+	<li><strong>If you get any kind of error (### error, undefinded whatever, etc.) then you need to call or email the webmaster As Soon As you Possibly can. These errors mean that something has happened to our code and it is not working</strong></li>
+		<ul>
+			<li>Don't worry though it DOESN'T mean that YOU did anything, in fact it means that something is not coded right on the web developers end :) </li>
+		</ul>
+</ul>
+
+<h2>What you should do incase you get an Error Message</h2>
+<ol>
+	<li>Make sure you have an internet connection.</li>
+	<li>Try viewing the same page in a different browser (Firefox, safari, Google Chrome, Opera, IE9-10, ect.)</li>
+	<li>If the problem is still not fixed then please restart your computer</li>
+	<li>Finally if you have done all of the above and you are still getting an error message then please call/email the webmaster asap.</li>
+</ol>
+
+<h3>Additional Training</h3>
+The webmaster is willing to hold training sessions with you to walk through the whole process one-on-one if you would like/need the help. If you would like additional training please contact the webmaster and inform them so that they can schedule a time with you that will work.
+
+<h3>Your Responsibilities</h3>
+Due to the fact that the webstaff has fulltime jobs and school we will not be able to physically update/add/delete events on the calendar and respond to every inquery that our site recieves.  But this is where you come in.  Your responsibilites include:
+<ul>
+	<li>Updating your Calendar events</li>
+	<li>Checking your email</li>
+	<li>Training the person who is next to take your place</li>
+</ul>
+
+<h4>Login Information</h4>
+You have two logins that are extremely important for you not to lose.  Your username for both of these accounts is the same you just need to remember your password.  Your passwords are for your own use NOT for anyone elses.  Your accounts can be tracked for your activity so be sure that you are the only one that is logging into your accounts.  
+\n
+If for some reason you cannot log into your accounts then please email/call us ASAP so that we can triple check that your login information is accurate.  If for some reason you lose your password or you notice that someone has gained access to your account (mainly on the database) then let us know immediately so that we can change your password.  
+\n
+\n
+<strong style="background-color: lightblue; color:black; padding: 5px; border: 2px dashed black; "><em>The bottom line is Share special moments with your friends and family but DON'T share your passwords.</strong></em>
+
+<h4>Training your predecessor</h4>
+
+When your term of office ends it is going to be your job to contact the webmaster to inform them of who the new person taking over is and training them on how to use the accounts.  After they have been trained we will change the account registration name attached to the database and password for the new user.  The webmaster will also be able to help train but it will be your responsibilty to walk through it with the new member so that they have a general understanding of what they are going to be responsible for on the web page.   
+
+<h4>Calendar Events</h4>
+
+All changes that are made to the calendar are automatically seen on both calendars on our site.  So make sure that you proofread your events carefully before submitting.
+
+<h5>Add Event to Calendar</h5>
+
+To add an event to the calendar you simply click on the link at the top left side of the calendar that says Add Event to Calendar.  Fill out all of the information in the <strong>FIRST</strong> form and then hit submit. NOTE: the times are in military time.  If you don't know military time if you hover over the words start time and end time you will see a conversion list for your convience.
+
+<h5>Edit Event on the Calendar</h5>
+
+To Edit an already existing event just click on the event on the calendar.  You will be brought to a seperate page where you can either SCROLL DOWN the page or CLICK on the words EDIT EVENT.  Once you are there please edit the field that needs to be corrected.  This is the <strong>SECOND</strong> form that is on the page.
+
+<h5>Delete Event on the Calendar</h5>
+
+To Delete an already existing event just click on the event on the calendar.  You will be brought to a seperate page where you can either SCROLL DOWN the page or CLICK on the words DELETE EVENT.  Once you are there please just hit the submit button and the event will be deleted.  This is the <strong>THIRD</strong> form that is on the page.  NOTE: that if you delete the event you will have to readd the event to get it back, so double check to make sure it is the correct event that you are deleting on the calendar.
+
+
+
+
+<h3>Webmasters contact information</h3>
+Phone Number: 540-298-1943
+\n
+Email Address: eumc.webmaster@gmail.com
+\n\n
