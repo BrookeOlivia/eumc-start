@@ -1,0 +1,3206 @@
+h1, h2, h3, h4, h5, h6, p, ul
+{
+	margin: 0;
+	padding: 0.2em;
+	margin-top: 20px;
+}
+
+body
+{
+	background-image: url('../images/IMAG1020.jpg');
+	background-size: 25% 100%;
+	background-attachment: fixed;
+}
+
+#wrapper
+{
+	background-color: #465f82;
+	margin: 0 auto;
+	width: 1000px;
+	text-align: left;
+	padding: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#wrappers
+{
+	width: 1050px;
+	background-color: #465f82;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius: 15px;
+}
+
+header
+{
+	text-align: center;
+	background-size:contain;
+	height: 150px;
+	background-color: #d2b48c;
+	border-top-right-radius:15px;
+	border-top-left-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+}
+
+header h2
+{
+	font-weight: bold;
+	height: 65px;
+	font-size: 1.2em;
+	opacity: .8;
+	-moz-opacity: .8;
+	filter:alpha(opacity=80);
+	color: maroon;
+	margin-top: 10px;
+	-top: 5px;
+}
+
+header h1
+{
+	padding-top: 25px;
+	height: 50px;
+	font-weight: bold;
+	opacity: .8;
+	-moz-opacity: .8;
+	filter:alpha(opacity=80);
+	font-size: 2.79em;
+}
+
+.title a
+{
+	color: maroon;
+	text-decoration: none;
+	/*text-shadow: 7px 3px 6px #ffffff, 7px 4px 15px #FF9912, 2px 2px 6px #FF9912, 1px 1px 10px black;*/
+	/*text-shadow: 1px 1px 0 #fff, 2px 2px 0 #fff, 3px 3px 7px #ff9912, 5px 5px 5px #fff, 4px 4px 7px #ff9912,6px 6px 6px #fff, 7px 7px 1px #ff9912, 8px 8px 1px #ff9912,9px 9px 2px #fff, 5px 5px 7px #ff9912, 6px 6px 7px #ff9912;*/
+	text-shadow: 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px 1px #465f82, 4px 4px 2px #465f82, 5px 5px 3px #465f82;/*, 6px 6px #660000, 7px 7px 10px #dddddd, 8px 8px 10px #dddddd, 9px 9px 10px #dddddd, 10px 10px 10px #eeeeee, 11px 11px 11px #eee;*/
+}
+
+.title a:visited
+{
+	color: maroon;
+}
+
+section
+{
+	padding: 10px;
+}
+
+/******************navigation menu**************************/
+nav
+{
+	background-color: #888888;
+	margin-bottom: 20px;
+	padding-left:5px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+}
+
+.events_nav ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 125px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 100px;
+}
+
+nav ul li
+{
+	float: left;
+	padding-bottom: 5px;
+}
+
+nav ul li a
+{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 5px;
+
+}
+
+nav ul li a:link
+{
+	color: #fffafa;
+}
+
+nav ul li a:visited
+{
+	color: #660000;
+}
+
+nav ul li.selected a
+{
+	text-decoration: underline;
+	color: lightblue;
+	font-weight: bold;
+}
+
+nav ul li.selected2 a
+{
+	text-decoration: underline;
+	color: lightgreen;
+	font-weight: bold;
+}
+/*************************aside*******************************/
+
+aside
+{
+	background-color: #465f82;
+	float: left;
+	width: 270px;
+	clear: both;
+	padding: 10px;
+	text-align: left;
+	color: white;
+}
+
+aside ul
+{
+	list-style-position: inside;	
+	list-style-type: square;
+	}
+
+aside ol
+{
+	list-style-type: none;
+}
+
+aside h2
+{
+	text-shadow: 1px 1px lightblue;
+}
+
+#prayer
+{
+	background: #002a60; /* Old browsers */
+ IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMmE2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MTUxMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #002a60 0%, #415136 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002a60), color-stop(100%,#415136)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #002a60 0%,#415136 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #002a60 0%,#415136 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #002a60 0%,#415136 100%); /* IE10+ */
+	background: linear-gradient(top,  #002a60 0%,#415136 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a60', endColorstr='#415136',GradientType=0 ); /* IE6-8 */
+    border:dashed 0px #000000;
+    -moz-border-radius-topleft: 22px;
+    -moz-border-radius-topright:22px;
+    -moz-border-radius-bottomleft:22px;
+    -moz-border-radius-bottomright:22px;
+    -webkit-border-top-left-radius:22px;
+    -webkit-border-top-right-radius:22px;
+    -webkit-border-bottom-left-radius:22px;
+    -webkit-border-bottom-right-radius:22px;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#moreinfo
+{
+	background: #002a60; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMmE2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MTUxMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #002a60 0%, #415136 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002a60), color-stop(100%,#415136)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #002a60 0%,#415136 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #002a60 0%,#415136 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #002a60 0%,#415136 100%); /* IE10+ */
+	background: linear-gradient(top,  #002a60 0%,#415136 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a60', endColorstr='#415136',GradientType=0 ); /* IE6-8 */
+	border:dashed 0px #000000;
+    -moz-border-radius-topleft: 22px;
+    -moz-border-radius-topright:22px;
+    -moz-border-radius-bottomleft:22px;
+    -moz-border-radius-bottomright:22px;
+    -webkit-border-top-left-radius:22px;
+    -webkit-border-top-right-radius:22px;
+    -webkit-border-bottom-left-radius:22px;
+    -webkit-border-bottom-right-radius:22px;
+    border-top-left-radius:22px;
+    border-top-right-radius:22px;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 7px;
+    width: 200px;
+}	
+#prayer a, #moreinfo a
+{
+	display: block;
+	text-decoration: none;
+}
+
+#prayer a:link, #moreinfo a:link
+{
+	color:white;
+}
+
+#prayer a:visited, #moreinfo a:visited
+{
+	color: white;
+}
+
+#prayer:hover, #moreinfo:hover
+{
+	color: white;
+	text-shadow: 3px 5px black;
+	background: #415136; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMmE2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MTUxMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #415136 0%, #002a60 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#415136), color-stop(100%,#4002a60)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #415136 0%,#002a60 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #415136 0%,#002a60 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #415136 0%,#002a60 100%); /* IE10+ */
+	background: linear-gradient(top,  #415136 0%,#002a60 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415136', endColorstr='#002a60',GradientType=0 ); /* IE6-8 */
+	-webkit-transition: all 0.12s ease-out;
+	-moz-transition: all .12s ease-out;
+	-o-transition: all 0.12s ease-out;
+}
+
+
+/******************************article***************************/
+article
+{
+	background-color: #d2b48c;
+	float: left;
+	color: black;
+	padding-bottom: 20px;
+	font-size: 1em;
+	width: 670px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+}
+
+#article
+{
+	background-color: #d2b48c;
+	float: left;
+	color: black;
+	padding-bottom: 20px;
+	font-size: 1.1em;
+	width: 720px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius: 15px;
+}
+
+
+/*************************************footer*********************/
+footer
+{
+	background-color: #576f81;
+	overflow: hidden;
+	clear: both;
+	text-align: center;
+	font-size: .8em;
+	background-color: rgba(87, 111, 129, 0.8);
+    background: rgba(87, 111, 129, 0.8);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius: 15px;
+}
+
+/***********general************/
+p
+{
+	margin-bottom: 10px;	
+}
+
+#video .two
+{
+	margin-left: 35px;
+	width: 600px;
+	height:400px;
+}
+
+ #video .one
+ {
+ 	margin-left: 0;
+ }
+
+h2
+{
+	font-variant: small-caps;
+}
+
+a:link
+{
+	color: maroon;
+	text-decoration: none
+}
+
+a:visited
+{
+	color: #465f82;
+}
+
+a:hover
+{
+	color: black;
+}
+
+/******************Index.php****************/
+.churchfamily
+{
+	width: 631px;
+	margin-bottom: 20px;
+	margin-top:30px;
+	margin-left: 20px;
+}
+ 
+/******************Contact US**************/
+iframe /*map*/
+{
+	margin-top: 35px;
+	width: 640px;
+	height: 620px;
+	margin-left: 15px;
+}
+
+
+
+/************************Leadership Page******************/
+.leadership
+{
+	border-collapse: collapse;
+}
+
+.leadership td, .leadership th
+{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.leadership tr:first-of-type
+{
+	text-align: center;
+}
+
+.leadership tr:nth-child(odd)
+{
+	background-color: #90a4c1;
+}
+
+.leadership tr:nth-child(even)
+{
+	background-color: #8bc0b1;
+}
+
+.leadership td:nth-child(2)
+{
+	text-align: center;
+}
+
+.leadership td:nth-child(3)
+{
+	width: 115px;
+}
+
+.bob
+{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.smith
+{
+	margin-top: 185px;
+	font-variant: small-caps;
+	font-size: 1.7em;
+}
+
+.break
+{
+
+}
+/****************************Ministries ************************/
+.minmenu 
+{
+	display: block;
+	width: 200px;
+	margin-left: 35px;
+}
+
+#minis
+{
+	float: left;
+	text-align: left;
+}
+
+.david
+{
+	width: 61%;
+	margin-left: 10px;
+	margin-top: 60px;
+}
+
+#acolytes
+{
+	clear: both;
+}
+
+
+h3
+{
+	padding-top: 20px;
+}
+
+.contact
+{
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 550px;
+}
+
+.contact th, .contact td
+{
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.contact tr:first-of-type
+{
+	text-align: center;
+}
+
+.min
+{
+	text-align: justify;
+}
+
+.min h3, .min h4
+{
+	margin-top: 10px;
+}
+
+#other .contact
+{
+	margin-top: 35px;
+	width: 600px;
+}
+
+#other .contact td, #other .contact th
+{
+	padding: 7px;
+}
+
+#other .contact caption
+{
+	font-size: 1.3em;
+	color: maroon;
+	font-weight: bold;
+	text-shadow: 1px 1px #ffffff;
+	margin-bottom: 5px;
+}
+
+#other .contact tr:last-of-type td
+{
+	font-weight: bold;
+}
+
+.education
+{
+	margin-left: 130px;
+	margin-bottom: 5px;
+}
+
+/**********************************Email.php*************************/
+#email div label
+{
+	float: left;
+	width: 200px;
+}
+div
+{
+	clear: both;
+}
+
+#submit_email
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+/**********************About US****************/
+.aboutmenu
+{
+	display: block;
+	margin-left: 35px;
+}
+
+.pastorpic
+{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 2px;
+}
+
+.smithpic
+{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 2px;
+}
+
+.aboutpic
+{
+	margin-left: 115px;
+}
+
+/***********************Events.php *************************/
+
+.instruction
+{
+	margin-top: 25px;
+	margin-bottom: -10px;
+}
+
+/*************************Events_view.php************************/
+
+.event_view
+{
+	border-collapse: collapse;
+	width: auto;
+	text-align: left;
+}
+
+.event_view th, .event_view td
+{
+	border:2px solid black;
+	padding: 5px;
+}
+
+.event_view tr:nth-child(n+1) th
+{
+	background-color: #415136;
+	color: #eeeeee;
+}
+
+.event_view td
+{
+	background-color: #415136;
+	color: #eeeeee;
+}
+
+
+.event_view tr:first-child th
+{
+	background-color: #002a60;
+	color: white;
+	text-align: center;
+}
+
+.event_view caption
+{
+	background-color: #002a60;
+	color: white;
+	font-size: 1.5em;
+	padding: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	border: 3px solid black;
+}
+
+
+/***********************Gatherings**************************/
+.meetings 
+{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.meetings td, .meetings th
+{
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.meetings caption
+{
+	font-size:1.5em;
+	
+}
+
+.meetings th
+{
+	background-color: #576f93;
+}
+
+.meetings tr:first-of-type th
+{
+	text-align:center;
+	background-color: grey;
+}
+
+.meetings td:last-of-type
+{
+	text-align:center;
+}
+
+.meetings tr:last-of-type
+{
+	background-color: grey;
+}
+
+.meetings a:link
+{
+	color: maroon;
+}
+
+.meetings a:visited
+{
+	color: maroon;
+}
+/**************Prayer******************/
+.prayer div
+{
+	clear: left;
+}
+
+label.text
+{
+	width: 130px;
+	float: left;
+	padding: 5px;
+
+}
+
+label.concern
+{
+	width: 180px;
+	float: left;
+	padding: 5px;
+	padding-left:10px;
+}
+
+input.text
+{
+	width: 215px;
+}
+
+.checkbox
+{
+	margin-right: 15px;
+}
+
+.prayer legend
+{
+	color: white;
+	text-shadow: 1px 1px 0 black, 2px 2px 0 black,3px 2px 2px black;
+    -moz-text-shadow: 1px 1px 0 black, 2px 2px 0 black,3px 2px 2px black;
+    -webkit-text-shadow: 1px 1px 0 black, 2px 2px 0 black,3px 2px 2px black;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
+
+.prayer 
+{
+	width: 85%;
+	border: 2px solid black;
+   	-moz-box-shadow:inset 8px 10px 8px #000000;
+    -webkit-box-shadow:inset 8px 10px 8px #000000;
+    box-shadow:inset 8px 10px 8px #000000;
+    padding: 2px;
+    padding-left: 7px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 0 white;
+    -moz-text-shadow: 2px 2px 0 white;
+    -webkit-text-shadow:3px 2px 0 black;
+}
+/*************************Form******************************/
+
+.contacts
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contacts fieldset
+{
+	border: 1px solid black;
+	margin-top: 10px; 
+	padding:10px;
+}
+
+.contacts legend
+{
+	border: 1px solid black;
+	padding:5px;
+}
+
+.contacts div
+{
+	clear: left;
+	padding-top: 2px;
+	margin-bottom: 1px;
+}
+label.basic, label.city
+{
+	width: 150px;
+	float: left;
+}
+
+input.basic, input.city
+{
+	width: 200px;
+}
+
+.selState
+{
+	margin-right: 94px;
+}
+
+input[type="text"]
+{
+	margin-top: 2px;
+}
+
+.contacts select
+{
+	margin-top: 2px;
+
+}
+.dropdown
+{
+	width: 206px;
+	text-align: center;
+}
+
+.radio
+{
+	margin-left: 150px;
+}
+
+.check
+{
+	margin-left: 150px;
+}
+
+.comments label
+{
+	display: block;
+}
+
+.comments textarea
+{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.submit
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+/******************************Gallery***********************************/
+
+.service p a img, .holidays p a img, .youth p a img, .othergatherings p a img
+{
+	display: block;
+}
+
+#youthpics p, #easter p, #service p
+{
+	margin-left: 7px;
+	display: inline;
+}
+
+.galleryName
+{
+	float: left;
+	position: absolute;
+	bottom: 0;
+	margin-left: 20px;
+}
+.album p:nth-child(2)
+{
+	margin-left: 150px;
+}
+.album
+{
+	position: relative;
+}
+/****************************************Preschool*************************/
+.topics
+{
+	margin-left: 50px;
+}
+
+.preschool_play
+{
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.center tr td:nth-of-type(2)
+{
+        padding-left:90px;
+        vertical-align:middle;
+}
+
+.center
+{
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 550px;
+}
+
+.center th, .center td
+{
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.center tr:first-of-type
+{
+	text-align: center;
+}
+
+
+
+/******************Youth************************/
+.caption
+{
+	text-align: center;
+}
+
+.youthlist ul li
+{
+	margin-left: 30px;
+}
+
+.youthlist .livid
+{
+	margin-bottom:10px;
+}
+
+#permissionforms a
+{
+	display: block;
+}
+
+#permissionforms
+{
+	padding: 10px;
+}
+
+/*******************Calendar/Events.php****************************/
+.login
+{
+	margin-left: 500px;
+}
+/*
+.phpCalendar
+{
+	background-color: blue;
+}
+*/
+.phpCalendar
+{
+	border: 3px solid blue;
+	border-collapse: collapse;
+}
+
+.phpCalendar th, .phpCalendar td
+{
+	border: 1px solid black;
+}
+
+.phpCalendar tr:first-of-type
+{
+	border-left: 1px solid blue;
+}
+
+.phpCalendar td:nth-of-type(7), .phpCalendar th:nth-of-type(7)
+{
+	border-right: 3px solid blue;
+}
+
+/*********************Prayer_requests_data.php***************/
+
+.pray article
+{
+	width: 960px;
+}
+
+.pray aside
+{
+	display: none;
+}
+
+.prayer_request_table
+{
+	border-collapse: collapse;
+	width: 960px;
+}
+
+.prayer_request_table th, .prayer_request_table td
+{
+	border: 1px solid lightgreen;
+	padding: 10px;
+}
+
+.prayer_request_table tr:first-of-type th
+{
+	text-align: center;
+}
+
+.prayer_request_table tr td:last-of-type
+{
+	width: 50px;
+}
+
+.prayer_request_table tr th:first-of-type
+{
+	width: 50px;
+}
+
+.prayer_request_table tr:nth-child(odd)
+{
+	background-color: #465f82;
+}
+
+.prayer_request_table tr:nth-child(even)
+{
+	background-color: grey;
+}
+
+.prayer_request_table tr:hover
+{
+	background-color: black;
+	color: white;
+}
+.prayer_request_table td:hover
+{
+	background-color: #e31230;
+}
+
+/***********************more_info_data.php********************************************/
+.more #wrapper
+{
+	width: 1320px;
+}
+
+.more aside
+{
+	display: none;
+}
+
+.more article
+{
+	width: 1280px;
+}
+
+.more_info_table
+{
+	border-collapse: collapse;
+	width: 1050px;
+}
+
+.more_info_table th, .more_info_table td
+{
+	border: 1px solid lightgreen;
+	padding: 5px;
+}
+
+.more_info_table tr:first-of-type th
+{
+	text-align: center;
+}
+
+.more_info_table tr td:last-of-type
+{
+	width: 50px;
+}
+
+.more_info_table tr th:first-of-type
+{
+	width: 50px;
+}
+
+.more_info_table tr td:nth-child(4)
+{
+
+	text-align: left;
+}
+
+.more_info_table tr:nth-child(odd)
+{
+	background-color: #465f82;
+}
+
+.more_info_table tr:nth-child(even)
+{
+	background-color: grey;
+}
+
+.more_info_table tr:hover
+{
+	background-color: black;
+	color: white;
+}
+.more_info_table td:hover
+{
+	background-color: #e31230;
+}
+
+/************************************Email Requests********************************/
+
+.erequests #wrapper
+{
+	width: 1320px;
+}
+
+.erequests aside
+{
+	display: none;
+}
+
+.erequests article
+{
+	width: 1280px;
+}
+
+.email_info_table
+{
+	border-collapse: collapse;
+	width: 1280px;
+}
+
+.email_info_table th, .email_info_table td
+{
+	border: 1px solid lightgreen;
+	padding: 5px;
+}
+
+.email_info_table tr:first-of-type th
+{
+	text-align: center;
+}
+
+.email_info_table tr td:last-of-type
+{
+	width: 500px;
+}
+
+.email_info_table tr th:first-of-type
+{
+	width: 50px;
+}
+
+
+.email_info_table tr:nth-child(odd)
+{
+	background-color: #465f82;
+}
+
+.email_info_table tr:nth-child(even)
+{
+	background-color: grey;
+}
+
+.email_info_table tr:hover
+{
+	background-color: black;
+	color: white;
+}
+.email_info_table td:hover
+{
+	background-color: #e31230;
+}
+
+/************************************Word of the Day**********************************/
+.wod
+{
+	border-collapse: collapse;
+}
+
+.wod th, .wod td
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.wod tr:first-child
+{
+	text-align: center;
+}
+
+.wod tr:nth-child(2)
+{
+	display: none;
+}
+
+.wod td:nth-child(2)
+{
+	vertical-align: middle;
+	text-align: right;
+}
+
+.wod tr:hover td, .wod tr:hover th
+{
+	background: #465f82;
+	color: white;
+}
+
+.wod tr:hover:first-child td, .wod tr:hover:first-child th
+{
+	background: #d2b48c;
+	color: black;
+}
+
+.wod caption
+{
+	font-size: 1.5em;
+	border: 1px solid black;
+}
+/***************************************MEDIA****************************************/
+@media only screen and (max-device-width: 1366px),
+       only screen and (max-width: 1366px)
+{
+	#wrapper, #wrappers
+	{
+		width: 96%;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	.pray #wrapper
+	{
+		width: 1020px;
+	}
+
+	header
+	{
+		width:100%;
+		height: 200px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 50px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		font-size: 1em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin-left: 50px;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		/*float: none;*/
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		width: 100%;
+		padding: 5px;
+	}
+
+	aside
+	{
+		width: 30%;
+		float: left;
+		/*width: auto;*/
+		padding: 0;
+		padding-bottom: 5px;
+		padding-top: 1px;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article, #article
+	{
+		float: left;
+		width: 66%;
+		/*max-width: 890px;*/
+		margin-left: 10px;
+		/*margin-top: 10px;
+		padding:15px;
+		padding-bottom: 15px;*/
+	}
+	
+	footer
+	{
+		/*width: auto;*/
+		margin-left: auto;
+		margin-right: auto;
+	}	
+/*Index.php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	/*#prayer, #moreinfo
+	{
+		margin-top: 10px;
+		padding: 20px;
+		float: left;
+	}	
+*/
+/*Video's*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries/Contact tables*/
+	.david
+	{
+		width: 250px;
+	}
+
+	/*.contact
+	{
+		width: 500px;
+	}*/
+        
+ 	#other .contact
+	{
+		/*width: 500px;	*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	.education
+	{
+		margin-left: 50px;
+	}
+/*Contact Us Page*/
+	.addresslink
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	iframe
+	{
+		width: 500px;
+		height: 450px;
+		margin-left: 0;
+		/*margin-left: 55px;*/
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+	
+/*Leadership Page*/
+	.leadership
+	{
+         width: 95%;
+         margin: 0 auto;
+	}
+
+	.leadership caption
+	{
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+
+	.leadership td:last-of-type
+	{
+		text-align: center;
+	}
+
+	.leadership td:first-of-type
+	{
+		text-align: left;
+		width: 200px;
+	}
+
+	.bob
+	{
+		margin-left: 5px;
+	}
+
+/*About Us Page*/
+	.aboutpic
+	{
+		width: 450px;
+		margin-left: 40px;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*Gallery.php*/
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+
+	.photoAlbum img
+	{
+		width: 100%;
+		max-width: 500px;
+	}
+/*prayer.php*/
+	.prayer
+	{
+		width: 500px;
+	}
+
+	label.text
+	{
+		margin-right: 50px;
+	}
+
+	.txtprayer
+	{
+		margin-left: 20px;
+	}
+
+	
+/*Gatherings.php*/
+	.meetings
+	{
+		width: 520px;
+	}
+/*Calendar*/
+	.login
+	{
+		margin-left: 450px;
+		width: 100px;
+	}
+	.phpCalendar
+	{
+		font-size: .6em;
+	}
+
+/*more information*/
+	form.contact
+	{
+		width: 500px;
+	}
+/*****preschool prices******/
+	.center
+	{
+		width: 500px;
+	}
+}
+
+
+@media only screen and (max-device-width: 1280px),
+       only screen and (max-width: 1280px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 800px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 200px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 50px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		font-size: 1em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin-left: 50px;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		/*float: none;*/
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		width: 100%;
+		padding: 5px;
+	}
+
+	aside
+	{
+		float: left;
+		/*width: 250px;*/
+		clear: left;
+		padding: 0;
+		padding-bottom: 5px;
+		padding-top: 1px;
+		font-size: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	article, #article
+	{
+		float: left;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		/*max-width: 923px;
+		width:100%;*/
+		padding:15px;
+		padding-bottom: 15px;
+
+	}
+
+	footer
+	{
+		/*width: 940px;*/
+		margin-left: auto;
+		margin-right: auto;
+	}	
+/*Index.php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		width: 70%;
+		padding: 20px;
+	}	
+
+/*Video's*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries/Contact tables*/
+/*	.contact
+	{
+		width: 100%;
+	}*/
+
+	#other .contact
+	{
+		/*width: 550px;	*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+
+	.david
+	{
+		width: 300px;
+	}
+
+	.education
+	{
+		margin-left: 250px;
+	}
+
+/*Contact Us Page*/
+	.addresslink
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	iframe
+	{
+		width: 800px;
+		height: 450px;
+		margin-left: 55px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+	
+/*Leadership Page*/
+	.leadership
+	{
+         width: 95%;
+         margin: 0 auto;
+	}
+
+	.leadership caption
+	{
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+
+	.leadership td:last-of-type
+	{
+		text-align: center;
+	}
+
+	.leadership td:first-of-type
+	{
+		text-align: left;
+		width: 200px;
+	}
+
+	.bob
+	{
+		margin-left: 5px;
+	}
+
+/*About Us Page*/
+	.aboutpic
+	{
+		width: 450px;
+		margin-left: 35px;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*Gallery.php*/
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+/*prayer.php*/
+	.prayer
+	{
+		width: 450px;
+	}
+
+	label.text
+	{
+		margin-right: 50px;
+	}
+	
+/*Gatherings.php*/
+	.meetings
+	{
+		width: 800px;
+	}
+/*Calendar*/
+	.login
+	{
+		margin-left: 740px;
+		width: 100px;
+
+	}
+
+/*more information*/
+	form.contact
+	{
+		width: 450px;
+	}
+
+/*Preschool*/
+	.center
+	{
+		width: 450px;
+		margin:35px;
+
+	}
+
+	footer
+	{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-device-width: 1024px),
+       only screen and (max-width: 1024px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 950px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 200px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 50px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid black;
+		width: 100%;
+		padding: 5px;
+	}
+
+
+	nav ul li a:hover
+	{
+		font-weight: bold;
+	}
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		padding-bottom: 5px;
+		padding-top: 1px;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		padding:15px;
+		padding-bottom: 15px;
+
+	}
+
+	footer
+	{
+		/*width: 940px;*/
+		margin-left: auto;
+		margin-right: auto;
+	}	
+/*Index.php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		width: 70%;
+		padding: 20px;
+	}	
+
+/*Video's*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries/Contact tables*/
+	/*.contact
+	{
+		width: 450px;
+	}*/
+
+	#other .contact
+	{
+		/*width: 850px;	*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+/*Contact Us Page*/
+	.addresslink
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	iframe
+	{
+		width: 800px;
+		height: 450px;
+		margin-left: 55px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+	
+/*Leadership Page*/
+	.leadership
+	{
+         width: 95%;
+         margin: 0 auto;
+	}
+
+	.leadership caption
+	{
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+
+	.leadership td:last-of-type
+	{
+		text-align: center;
+	}
+
+	.leadership td:first-of-type
+	{
+		text-align: left;
+		width: 200px;
+	}
+
+	.bob
+	{
+		margin-left: 5px;
+		width: 135px;
+	}
+
+/*About Us Page*/
+	.aboutpic
+	{
+		width: 100%;
+		margin:0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*Gallery.php*/
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+/*prayer.php*/
+	.prayer
+	{
+		width: 600px;
+	}
+
+	label.text
+	{
+		margin-right: 50px;
+	}
+	
+/*Gatherings.php*/
+	.meetings
+	{
+		width: 800px;
+	}
+}
+
+@media only screen and (max-device-width: 960px),
+	   only screen and (max-width: 960px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 845px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 215px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 80px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid black;
+		width: 100%;
+		padding: 5px;
+	}
+
+	nav ul li a:hover
+	{
+		font-weight: bold;
+	}
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+		width: auto;
+		padding:15px;
+		padding-bottom: 15px;
+	}
+
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		padding: 10px;
+	}	
+/*Index. php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+
+/*Videos*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+
+/*Ministries.php*/
+	/*.contact
+	{
+		width: 750px;
+		font-size:1em;
+	}*/
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	/*#other .contact
+	{
+		width: 750px;
+	}*/
+
+
+	.david
+	{
+		width: 400px;
+	}
+
+/*Contactus.php*/
+	iframe
+	{
+		width: 650px;
+		height: 450px;
+		margin-left: 125px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+
+/*leadership.php*/	
+	.leadership
+	{
+       width: 100%;
+       margin: 0 auto;
+	}
+	.leadership td, .leadership th
+	{
+		padding: 5px;
+	}
+
+	.smith
+	{
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+/*aboutus.php*/
+	.aboutpic
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*events.php*/
+	.phpCalendar
+	{
+		width: 300px;
+	}
+
+	.login
+	{
+		margin-left: 740px;
+	}
+	
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+	
+/*preschool*/
+	.mission
+	{
+		text-align: center;
+	}
+
+	.preschool_play
+	{
+		margin-right: 35px;
+	}
+/*gatherings*/
+	.meetings
+	{
+		padding: 0;
+		margin: 0;
+		width: auto;
+		text-align: left;
+		margin-left: 75px;
+	}
+	
+/*More information form*/
+	form.contact
+	{
+		width: 450px;
+	}
+
+
+}
+
+@media only screen and (max-device-width: 854px),
+	   only screen and (max-width: 854px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 800px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 260px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 105px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid black;
+		width: 100%;
+		padding: 5px;
+	}
+
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+		width: auto;
+		padding:15px;
+		padding-bottom: 15px;
+	}	
+
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		padding: 10px;
+	}	
+/*Index. php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+
+/*Videos*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries.php*/
+	.contact
+	{
+		/*width: 600px;*/
+		font-size:.88em
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	/*#other .contact
+	{
+		width: 600px;
+	}*/
+
+	.education
+	{
+		margin-left: 150px;
+	}
+/*Contactus.php*/
+	iframe
+	{
+		width: 600px;
+		height: 450px;
+		margin-left: 82px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+
+/*leadership.php*/	
+	.leadership
+	{
+       width: 100%;
+       margin: 0 auto;
+	}
+	.leadership td, .leadership th
+	{
+		padding: 5px;
+	}
+
+	.smith
+	{
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+/*aboutus.php*/
+	.aboutpic
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*events.php*/
+	.phpCalendar
+	{
+		width: 300px;
+	}
+
+	.login
+	{
+		margin-left: 600px;
+	}
+	
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+	
+/*preschool*/
+	.mission
+	{
+		text-align: center;
+	}
+
+	.preschool_play
+	{
+		margin-right: 35px;
+	}
+/*gatherings*/
+	.meetings
+	{
+		padding: 0;
+		margin: 0;
+		width: auto;
+		margin-left: 8px; 
+	}
+	
+	
+}
+
+@media only screen and (max-device-width: 800px),
+       only screen and (max-width: 800px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 96%;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 200px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 50px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid black;
+		width: 100%;
+		padding: 5px;
+	}
+
+	nav ul li a:hover
+	{
+		font-weight: bold;
+	}
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		padding-bottom: 5px;
+		padding-top: 1px;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+		/*width: 96%;*/
+		padding:15px;
+		padding-bottom: 15px;
+
+	}
+
+	/*footer
+	{
+		width: 750px;
+	}	*/
+/*Index.php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		width: 70%;
+		padding: 20px;
+	}	
+
+/*Video's*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries/Contact tables*/
+	.contact
+	{
+		/*width: 640px;*/
+		font-size:.87em
+	}
+
+	#other .contact
+	{
+		/*width: 640px;	*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	.education
+	{
+		margin-left: 77px;
+	}
+
+/*Contact Us Page*/
+	.addresslink
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	iframe
+	{
+		width: 700px;
+		height: 450px;
+		margin-left: 10px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+	
+/*Leadership Page*/
+	.leadership
+	{
+         width: 710px;
+         margin: 0 auto;
+	}
+
+	.leadership caption
+	{
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+
+
+	.bob
+	{
+		margin-left: 5px;
+	}
+
+/*About Us Page*/
+	.aboutpic
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*Gallery.php*/
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+/*prayer.php*/
+	.prayer
+	{
+		width: 600px;
+	}
+
+	label.text
+	{
+		margin-right: 50px;
+	}
+
+/*Calendar*/
+	.login
+	{
+		margin-left: 630px;
+	}
+}
+
+
+@media only screen and (max-device-width: 640px),
+	   only screen and (max-width: 640px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 600px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 260px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 105px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.4em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin:0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid black;
+		width: 100%;
+		padding: 5px;
+	}
+
+	nav ul li a:hover
+	{
+		font-weight: bold;
+	}
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+		width: auto;
+		padding:15px;
+		padding-bottom: 15px;
+	}
+
+	/*footer
+	{
+		width: auto;
+	}	*/
+
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		padding: 10px;
+		font-size: 1.1em;
+	}	
+/*Index. php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+
+/*Videos*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries.php*/
+	.contact
+	{
+		/*width: 500px;*/
+		font-size:.88em
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	/*#other .contact
+	{
+		width: 500px;
+	}*/
+
+	.david
+	{
+		width: 400px;
+		margin-left: 80px;
+	}
+/*Contactus.php*/
+	iframe
+	{
+		width: 500px;
+		height: 450px;
+		margin-left: 35px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+
+
+	.david
+	{
+		width: 310px;
+		margin-left: 5px;
+	}
+
+/*leadership.php*/	
+	.leadership
+	{
+       width: 100%;
+       margin: 0 auto;
+	}
+	.leadership td, .leadership th
+	{
+		padding: 5px;
+	}
+
+	.leadership td:nth-last-of-type(1), .calendar td +td+ td+ td+ td+ td+ td
+	{
+		display:none;
+	}
+	
+	.leadership th +th +th +th, .calendar th +th +th +th +th +th +th
+	{
+		display: none;
+	}
+
+	.smith
+	{
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+/*aboutus.php*/
+	.aboutpic
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*events.php*/
+	.login
+	{
+		margin-left: 500px;
+	}
+	
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+	
+/*preschool*/
+	.mission
+	{
+		text-align: center;
+	}
+
+	.preschool_play
+	{
+		margin-right: 35px;
+	}
+/*gatherings*/
+	.meetings
+	{
+		padding: 0;
+		margin: 0;
+		width: auto;
+		margin-left: 0px; 
+	}
+
+/*prayer.php*/
+	.prayer
+	{
+		width: 500px;
+	}
+	
+	
+}
+
+@media only screen and (max-device-width: 480px),
+	   only screen and (max-width: 480px)
+{
+	#wrapper, #wrappers
+	{
+		/*width: 460px;*/
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	header
+	{
+		width:100%;
+		height: 260px;
+	}
+
+	header h1
+	{
+		transform: scale(1,1);
+		-ms-transform: scale(1,1);
+		-webkit-transform: scale(1,1); 
+		-o-transform: scale(1,1); 
+		-moz-transform: scale(1,1); 
+	}
+	
+	header h2
+	{
+		margin-top: 105px;
+	}
+	
+	nav
+	{
+		width: 100%;
+		padding-left:0;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 1.2em;
+	}
+
+	nav ul, .events_nav ul
+	{
+		list-style-type: none;
+		overflow: hidden;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li
+	{
+		float: none;
+		width:100%;
+		padding: 0;
+		margin:0;
+	}
+
+	nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin-right: 0;
+		border: 1px solid black;
+	}
+
+	nav ul li:last-child a
+	{
+		margin-left: 0px;
+		width:100%;
+	}
+
+	nav ul li a:hover
+	{
+		font-weight: bold;
+	}
+
+	aside
+	{
+		float: none;
+		width: 100%;
+		clear: left;
+		padding: 0;
+		font-size: 1.1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	aside h2
+	{
+		display: none;
+	}
+	
+	aside ul, aside li
+	{
+		display: none;
+	}	
+	
+	article, #article
+	{
+		float: none;
+		margin-top: 10px;
+		margin-left: 0px;
+		/*width: 93%;*/
+		padding:15px;
+		padding-bottom: 15px;
+	}
+
+	/*footer
+	{
+		width: 460px;
+	}*/	
+
+	#prayer, #moreinfo
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		padding: 10px;
+	}	
+/*Index. php*/
+	.churchfamily
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+
+/*Videos*/
+	#video .two, #video .one
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+/*Ministries.php*/
+	.contact
+	{
+		/*width: 425px;*/
+		font-size:.9em
+	}
+
+	ul
+	{
+		list-style-position: inside;
+		margin-left: 5px;
+	}	
+
+	/*#other .contact
+	{
+		width: 320px;
+	}*/
+
+
+	.david
+	{
+		width: 400px;
+		margin-left: 15px;
+	}
+
+	.education
+	{
+		margin-left: 15px;
+	}
+
+/*Contactus.php*/
+	iframe
+	{
+		width: 400px;
+		height: 450px;
+		margin-left: 8px;
+	}
+	
+	#map a
+	{
+		margin-left: 45px;
+		font-size: 1.2em;
+	}
+
+/*leadership.php*/	
+	.leadership
+	{
+       width: 100%;
+       margin: 0 auto;
+	}
+	.leadership td, .leadership th
+	{
+		padding: 5px;
+	}
+
+	.leadership td:nth-last-of-type(1), .calendar td +td+ td+ td+ td+ td+ td
+	{
+		display:none;
+	}
+	
+	.leadership th +th +th +th, .calendar th +th +th +th +th +th +th
+	{
+		display: none;
+	}
+
+	.smith
+	{
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+/*aboutus.php*/
+	.aboutpic
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.smithpic
+	{
+		width: 200px;
+	}
+
+/*events.php*/
+	.phpCalendar
+	{
+		width: auto;
+		font-size: .7em;
+	}
+
+	.login
+	{
+		margin-left: 200px;
+	}
+	
+	.photoAlbum p
+	{
+		margin: 0;
+
+	}
+	
+/*preschool*/
+	.mission
+	{
+		text-align: center;
+	}
+
+	.preschool_play
+	{
+		margin-right: 35px;
+	}
+/*gatherings*/
+	.meetings
+	{
+		background-color: blue;
+		padding: 0;
+		margin: 0;
+		width: auto;
+		text-align:
+	}
+	
+	
+}
+/*****************************Prayer.html PHP page**********************************/
+.prayerp
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.prayerbox
+{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: grey;
+	box-shadow: 3px 5px black;
+	-moz-box-shadow: 3px 5px black;
+	-webkit-box-shadow: 3px 5px black;
+	margin-top: 20px;
+}
+
+.prayercontact
+{
+	margin-top: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+/**************************NOTES ABOUT MEDIA QUERIES***************
+
+1024 - iPad
+480,930,640- cell phones
+1280
+
+
+*/
