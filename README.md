@@ -10,8 +10,8 @@ Main Features
 - photo galleries
 - custom CMS backend for users to check form requests and manage their sections
 
-Not include:
+Not includes:
 
 Videos
-DB's
+DB's & 
 Login Information
